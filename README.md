@@ -6,6 +6,7 @@ Bu çalışmada OPENCV ve NUMPY kütüphanelerini kullanarak bir resmin üzerind
 
 Önemli notlar:
 # Hue (Renk Özü), Saturation (Doygunluk) ve Value(Parlaklık) değerlerine göre belirten bir renk uzayı türü,maskeleme yapacağımız için RGB den HSV formatına dönüştürdük.
+Faydalı kaynak: https://cvexplained.wordpress.com/2020/04/28/color-detection-hsv/#:~:text=The%20HSV%20values%20for%20true,10%20and%20160%20to%20180.
 
 Değerli projeleriyle bana ilham kaynağı olan Prof. Bülent Sezen' e teşekkür ederim.
 
