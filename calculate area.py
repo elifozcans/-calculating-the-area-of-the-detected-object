@@ -11,7 +11,7 @@ import imutils
  
 # Grab the image
 
-img = cv2.imread("C:/Users/Emre/Desktop/Elif/books.png")
+img = cv2.imread("Path of your image")
 
 hsv = cv2.cvtColor(img, cv2.COLOR_BGR2HSV) # Hue (Renk Özü), Saturation (Doygunluk) ve Value(Parlaklık) değerlerine göre belirten bir renk uzayı türü
 #maskeleme yapacağımız için HSV formatına dönüştürdük
