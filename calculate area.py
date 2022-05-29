@@ -1,8 +1,7 @@
 # -*- coding: utf-8 -*-
 """
-Created on Sun May 29 01:03:15 2022
 
-@author: Elif
+@author: Elif ÖZCAN
 """
 
 import cv2
