@@ -24,7 +24,7 @@ mask = cv2.inRange(hsv,kirmizi_alt_deger,kirmizi_ust_deger) #maskaleme yaptık
 cnts = cv2.findContours(mask, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
 cnts = imutils.grab_contours(cnts) #bulduğu kontürlerin alanları
 sayac = 0
-for c in cnts: #kontür alanını hesaplamadı
+for c in cnts: #kontür alanını hesapladık
     alan = cv2.contourArea(c)
     print('Alan:  ', alan)
     if alan > 100: sayac += 1
